@@ -1,7 +1,6 @@
 import unittest
 import sys
-sys.path.append("..")
-from translator import english_to_french, french_to_englich
+from machinetranslation.translator import english_to_french, french_to_englich
 
 class TestTranslationMethods(unittest.TestCase):
 
